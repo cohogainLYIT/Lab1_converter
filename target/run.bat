@@ -1,0 +1,1 @@
+java -jar Lab1_Conv-0.0.1-SNAPSHOT.jar
