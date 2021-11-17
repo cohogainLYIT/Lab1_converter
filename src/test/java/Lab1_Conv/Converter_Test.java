@@ -5,6 +5,10 @@ package Lab1_Conv;
 
 import static org.junit.Assert.*;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
 import org.junit.Test;
 
 
@@ -12,7 +16,7 @@ import org.junit.Test;
  * @author ciaran
  *
  */
-public class Converter_Test {
+public class Converter_Test extends Converter {
 	
 	/**
 	 * Test method for {@link Lab1_Conv.Converter#miles_to_kms(int)}.
@@ -51,7 +55,7 @@ public class Converter_Test {
 	 */
 	@Test
 	public void test_main() {
-		equals("Converter!!");
+	    
 	}
 
 }
