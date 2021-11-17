@@ -10,9 +10,9 @@ $ sudo apt install docker.io
 
 $ docker pull cohogainlyit/converter:latest
 
-$ docker run -it cohogainlyit/c
+$ docker run -it cohogainlyit/converter
 
-if you get a permission denied error, run the following command to fix:
+If you get a permission denied error, run the following command to fix:
 
 $ sudo chmod 666 /var/run/docker.sock
 
