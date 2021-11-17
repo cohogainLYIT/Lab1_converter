@@ -6,10 +6,8 @@ This is a test repository for implementing a CI/CD  workflow using GitHub Action
 
 # Download and run the Docker image
 
-$ sudo apt install docker.io
-
-$ docker pull cohogainlyit/converter:latest
-
+$ sudo apt install docker.io                                                                
+$ docker pull cohogainlyit/converter:latest                                                                                                      
 $ docker run -it cohogainlyit/converter
 
 If you get a permission denied error, run the following command to fix:
